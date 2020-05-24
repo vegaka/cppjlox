@@ -1,0 +1,8 @@
+target_sources(cppjlox PUBLIC main.cpp)
+target_sources(cppjlox PUBLIC scanner.cpp)
+target_sources(cppjlox PUBLIC scanner.h)
+target_sources(cppjlox PUBLIC error.cpp)
+target_sources(cppjlox PUBLIC error.h)
+target_sources(cppjlox PUBLIC tokenTypes.h)
+target_sources(cppjlox PUBLIC token.h)
+target_sources(cppjlox PUBLIC token.cpp)
